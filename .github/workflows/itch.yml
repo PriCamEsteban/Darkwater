@@ -14,7 +14,7 @@ jobs:
         uses: josephbmanley/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.serverItachi }}
-          CHANNEL: Windows
+          CHANNEL: windows
           ITCH_GAME: decert-brothel
           ITCH_USER: puchis
           PACKAGE: .
